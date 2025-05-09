@@ -1,427 +1,25 @@
 body {
   font-family: 'Inknut Antiqua', serif;
   margin: 0;
+  padding: 0;
   background: #fff;
   color: #845555;
   height: 100%;
-  padding: 0;
-
 }
 
+/* Header & Navigation */
 .header, .nav {
   background-color: #D6435B;
   color: white;
-  padding: 1rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.header {
-  padding: 25px;
-  margin: 0;
-  height: 100px;
-}
-
-.header h1, .nav h1 {
-  margin: 0;
-  font-size: 1.5rem;
-}
-
-.header nav a{
-  margin: 0 4.5rem;
-  color: white;
-  text-decoration: none;
-  font-size: 1.5rem;
-
-}
-
-button{
-  font-family: 'Inknut Antiqua', serif;
-}
-
-
-.logo {
-  width: 200px;
-  height: auto;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-title{
-  margin-left: 50%;
-}
-
-.hero {
-  background-color: #D6435B;
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-.login-box {
-  background: white;
-  color: #845555;
-  align-items: center;
-  padding: 25px;
-  border-radius: 12%;
-  max-width: 300px;
-  margin-top: 0px;
-  margin-bottom: 100px;
-  align-items: center;       
-  justify-content: center; 
-  text-align: center;
-}
-
-.login-box input {
-  width: 100%;
-  margin-left: 0px;
-  margin-right: 10px;
-  margin-top: auto;
-  margin-bottom: 25px;
-  border: none;
-  border-radius: 25px;
-  font-family: 'Inknut Antiqua', serif;
-  text-align: center;
-  background-color: #D6435B;
-  color: #fff;
-}
-::placeholder {
-  color: white;
-  opacity: 75%; /* pastikan warnanya tidak transparan */
-}
-.login-box button {
-  margin-top: 1rem;
-  padding: 0.5rem 1rem;
-  background-color: #D6435B;
-  color: white;
-  border: none;
-  border-radius: 1rem;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-.confirmed {
-  text-align: center;
-  background-color: #fff;
-}
-.confirmed-msg {
-  margin-top: 150px;
-
-}
-
-.confirmed-msg a button{
-  background-color: #D6435B;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 8px;
-  padding-left: 10px;
-  padding-right: 10px
-}
-.confirmed-msg h2 {
-  color: #845555;
-  margin-bottom: 5px;
-}
-
-.confirmed-msg p{
-  margin-top: 5px;
-  margin-bottom: 25px;
-}
-
-.content .nav nav a {
-  margin: 0 1rem;
-  color: white;
-  text-decoration: none;
-}
-
-.game main{
-  padding: 2rem;
-  text-align: center;
-  padding-bottom: 25%;
-}
-
-.game main p{
-  font-size: large;
-  padding-bottom: 0%;
-  margin-bottom: 45px;
-  margin-top: 125px;
-}
-
-.content main {
-  padding: 2rem;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.read main{
-  margin-top: 100px;
-  text-align: center;
-  margin-bottom: 130px;
-  font-size: larger;
-}
-
-.menus {
-  display: flex;
-  justify-content: center;
-  gap: 3.2rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.menu-pic {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin-bottom: 30px;
-  height: auto;
-}
-
-.circle {
-  width: 150px;
-  height: 150px;
-  background-color: #cc4452;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-
-.circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.read-txt main {
-  max-width: 850px;
-  margin: 70px;
-  margin-left: 100px;
-}
-
-.read-txt main a button{
-  text-align: right;
-  margin-top: 40px; /* jarak dari elemen atasnya */
-  padding-left: 20px; /* biar ga nempel ke kiri */
-}
-
-.see main{
-  padding: 2rem;
-  text-align: center;
-  padding-bottom: 25%;
-}
-
-.see main p{
-  font-size: large;
-  padding-bottom: 0%;
-  margin-bottom: 45px;
-  margin-top: 100px;
-  font-weight: bold;
-}
-
-.see main img{
-  height: 120px;
-}
-
-.see main .note{
-  font-size: smaller;
-  font-weight: lighter;
-  margin-top: 20px;
-}
-.card {
-  background-color: #D6435B;
-  color: white;
-  padding: 1rem;
-  border-radius: 25px;
-  width: 200px;
-}
-
-.card .pic-box {
-  background-color: white;
-  color: #845555;
-  padding: 0rem;
-  margin-bottom: 0;
-}
-
-.card button {
-  margin-top: 0.5rem;
-  padding: 0.5rem;
-  min-width: 120px;
-  background: white;
-  color: #D6435B;
-  border: none;
-  border-radius: 25px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.big-pic {
-  background-color: #D6435B;
-  color: white;
-  padding: 4rem;
-  margin-top: 2rem;
-  border-radius: 0.5rem;
-}
-
-.footer {
-  background-color: #D6435B; /* Warna latar seperti gambar */
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* 4 kolom */
-  grid-gap: -10px;
-  text-align: center;
-  font-family: 'Inknut Antiqua', serif;
-  color: white;
-  height: 200px;
-  font-size: smaller;
-}
-
-.footer a {
-  text-decoration: none;
-  color: white;
-  margin: 0;
-  display: block;
-  padding: 0%;
-}
-
-.btn-pink{
-  background-color: #D6435B;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 8px;
-  padding-left: 10px;
-  padding-right: 10px;
-  min-width: 120px;
-}
-
-@media (max-width: 768px) {
-  .header, .nav {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.5rem;
-    padding: 1rem;
-    height: auto;
-  }
-
-  .header nav a {
-    margin: 0.5rem 0;
-    font-size: 1.2rem;
-  }
-
-  .logo {
-    width: 150px;
-  }
-
-  .footer {
-    grid-template-columns: repeat(2, 1fr); /* dari 4 jadi 2 kolom */
-    font-size: 0.8rem;
-    height: auto;
-  }
-
-  .cards,
-  .menus,
-  .menu-pic {
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-  }
-
-  .read-txt main {
-    margin: 1.5rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .card {
-    width: 80%;
-    max-width: 300px;
-  }
-
-  .login-box {
-    width: 90%;
-    max-width: 320px;
-  }
-
-  .big-pic {
-    padding: 2rem;
-  }
-
-  .read main,
-  .game main,
-  .see main {
-    padding: 1rem;
-    margin-top: 60px;
-    margin-bottom: 80px;
-  }
-
-  .read main p,
-  .game main p,
-  .see main p {
-    margin-top: 60px;
-    margin-bottom: 30px;
-    font-size: medium;
-  }
-
-  .see main img {
-    height: 80px;
-  }
-
-  .btn-pink,
-  .confirmed-msg a button,
-  .card button {
-    width: 100%;
-    min-width: unset;
-    font-size: 1rem;
-    padding: 10px;
-  }
-
-  .login-box input {
-    font-size: 1rem;
-    padding: 10px;
-  }
-
-  .circle {
-    width: 120px;
-    height: 120px;
-  }html {
-  font-size: 16px;
-}
-
-body {
-  font-family: 'Inknut Antiqua', serif;
-  margin: 0;
-  background: #fff;
-  color: #845555;
-  height: 100%;
-  padding: 0;
-}
-
-.header, .nav {
-  background-color: #D6435B;
-  color: white;
-  padding: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.header {
   padding: 1.5rem;
+}
+
+.header {
+  height: 70px;
   margin: 0;
-  height: auto;
 }
 
 .header h1, .nav h1 {
@@ -429,28 +27,27 @@ body {
   font-size: 1.5rem;
 }
 
-.header nav a {
+.header nav a, .content .nav nav a {
   margin: 0 2.5rem;
   color: white;
   text-decoration: none;
   font-size: 1.25rem;
 }
 
+/* General Button Style */
 button {
   font-family: 'Inknut Antiqua', serif;
 }
 
+/* Logo */
 .logo {
-  width: 12.5rem;
+  width: 11.5rem;
   height: auto;
   margin-top: 0;
   padding-top: 0;
 }
 
-title {
-  margin-left: 50%;
-}
-
+/* Hero Section */
 .hero {
   background-color: #D6435B;
   min-height: 100%;
@@ -459,21 +56,20 @@ title {
   align-items: center;
 }
 
+/* Login Box */
 .login-box {
   background: white;
   color: #845555;
-  align-items: center;
+  text-align: center;
   padding: 1.5rem;
   border-radius: 1.5rem;
   max-width: 18.75rem;
-  margin-top: 0;
-  margin-bottom: 6.25rem;
-  text-align: center;
+  margin: 0 auto 6.25rem;
 }
 
 .login-box input {
   width: 100%;
-  margin: 0 0 1.5rem;
+  margin-bottom: 1.5rem;
   border: none;
   border-radius: 1.5rem;
   font-family: 'Inknut Antiqua', serif;
@@ -500,6 +96,7 @@ title {
   font-weight: bold;
 }
 
+/* Confirmation Section */
 .confirmed {
   text-align: center;
   background-color: #fff;
@@ -507,14 +104,6 @@ title {
 
 .confirmed-msg {
   margin-top: 9.375rem;
-}
-
-.confirmed-msg a button {
-  background-color: #D6435B;
-  color: white;
-  border: none;
-  border-radius: 1.5rem;
-  padding: 0.5rem 0.625rem;
 }
 
 .confirmed-msg h2 {
@@ -526,96 +115,121 @@ title {
   margin: 0.313rem 0 1.563rem;
 }
 
-.content .nav nav a {
-  margin: 0 1rem;
+.confirmed-msg a button {
+  background-color: #D6435B;
   color: white;
-  text-decoration: none;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 0.625rem;
 }
 
-.game main {
+.content h2{
+  margin-left: 2.3rem;
+}
+/* Game, Read, See Sections */
+.game main, .see main, .read main {
   padding: 2rem;
   text-align: center;
-  padding-bottom: 25%;
+  margin-top: 3rem;
+  margin-bottom: 8.125rem;
 }
 
-.game main p {
+.game main p, .see main p, .read main p {
   font-size: 1.125rem;
-  margin: 7.813rem 0 2.813rem;
-}
-
-.content main {
-  padding: 2rem;
-  text-align: center;
-}
-
-.cards {
-  display: flex;
-  justify-content: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.read main {
-  margin: 6.25rem 0 8.125rem;
-  text-align: center;
-  font-size: 1.125rem;
-}
-
-.menus {
-  display: flex;
-  justify-content: center;
-  gap: 3.2rem;
-  flex-wrap: wrap;
-  margin: 2rem 0;
-}
-
-.menu-pic {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1.25rem;
-  margin-bottom: 1.875rem;
-}
-
-.circle {
-  width: 9.375rem;
-  height: 9.375rem;
-  background-color: #cc4452;
-  border-radius: 50%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.circle img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.read-txt main {
-  max-width: 53.125rem;
-  margin: 4.375rem 0 0 6.25rem;
-}
-
-.read-txt main a button {
-  text-align: right;
-  margin-top: 2.5rem;
-  padding-left: 1.25rem;
-}
-
-.see main {
-  padding: 2rem;
-  text-align: center;
-  padding-bottom: 25%;
-}
-
-.see main p {
-  font-size: 1.125rem;
-  margin: 6.25rem 0 2.813rem;
+  margin-top: 3rem;
+  margin-bottom: 2.813rem;
   font-weight: bold;
+}
+
+.game-play main{
+  background-color: #D6435B;
+  height: 550px;
+  margin-top: -50px;
+  justify-content: center;
+}
+.game-play main p{
+  text-align: center;
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0;
+  padding-top: 80px;
+  line-height: 65px;
+  
+}
+.game-play main a button{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border: none;
+  border-radius: 999px;
+  color: #D6435B;
+  min-width: 120px
+ }
+
+.game-play main a{
+    text-decoration: none;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+ }
+
+ .game-play main .notes{
+  font-size: small;
+  font-weight: lighter;
+  margin-top: -60px
+ }
+
+ .gede{
+  font-size: 2rem;
+  padding: 1.2rem 2.5rem;
+  margin-bottom: 1rem;
+  margin-left: 37%;
+  margin-top: 1rem;
+ }
+
+ .sedang{
+  margin-left: 35rem;
+  margin-top: 25px;
+ }
+
+ .kecil{
+  margin-left: 75%;
+  margin-top: 80px;
+  font-size: 9px;
+ }
+.button-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 25px;
+}
+
+.button-container button {
+  font-family: 'Inknut Antiqua', serif;
+  background-color: white;
+  color: #d2435c;
+  font-weight: bold;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 999px;
+  font-size: 1.5rem;
+  text-align: center;
+  white-space: normal;
+  line-height: 45px;
+}
+
+.button-container .friki{
+  font-size: 0.9rem;
+  padding: 0.5rem 1.2rem;
+}
+
+.read-txt main button{
+  margin-bottom: 4rem;
+  width: fit-content;
 }
 
 .see main img {
@@ -628,12 +242,23 @@ title {
   margin-top: 1.25rem;
 }
 
+/* Card & Menu */
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
 .card {
   background-color: #D6435B;
   color: white;
   padding: 1rem;
   border-radius: 1.563rem;
   width: 12.5rem;
+  text-align: center;
+
 }
 
 .card .pic-box {
@@ -655,6 +280,64 @@ title {
   cursor: pointer;
 }
 
+/* Circle Images */
+.circle {
+  width: 9.375rem;
+  height: 9.375rem;
+  background-color: #cc4452;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.menus{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: -1rem;
+}
+
+.profile-card {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 1rem;
+}
+
+/* Read Text Area */
+.read-txt main {
+  max-width: 53.125rem;
+  margin: 4.375rem 1rem 0 6.25rem;
+}
+
+.read-txt main a button {
+  text-align: right;
+  margin-top: 2.5rem;
+  padding-left: 1.25rem;
+}
+
+.read-txt main h2{
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+/* Big Picture Section */
 .big-pic {
   background-color: #D6435B;
   color: white;
@@ -663,6 +346,7 @@ title {
   border-radius: 0.5rem;
 }
 
+/* Footer */
 .footer {
   background-color: #D6435B;
   padding: 1.25rem;
@@ -672,7 +356,6 @@ title {
   font-family: 'Inknut Antiqua', serif;
   color: white;
   font-size: 0.75rem;
-  height: auto;
 }
 
 .footer a {
@@ -683,6 +366,7 @@ title {
   padding: 0;
 }
 
+/* Utility Buttons */
 .btn-pink {
   background-color: #D6435B;
   color: white;
@@ -692,17 +376,18 @@ title {
   min-width: 7.5rem;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
   .header, .nav {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.5rem;
     padding: 1rem;
     height: auto;
   }
 
   .header nav a {
-    margin: 0.5rem 0;
+    margin: 0.5rem 0.7rem;
     font-size: 1.2rem;
   }
 
@@ -718,16 +403,29 @@ title {
   .cards, .menus, .menu-pic {
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 2rem;
+  }
+
+  .content h2{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-left: 0;
   }
 
   .read-txt main {
     margin: 1.5rem 1rem;
+    font-size: smaller;
+    max-width: 400px;
+    word-wrap: break-word;       /* memaksa kata turun ke baris baru */
+    overflow-wrap: break-word;   /* versi modern, sebaiknya pakai */
+    word-break: break-word;      /* bantu potong kata kalau perlu */
+    white-space: normal; 
   }
 
   .card {
     width: 80%;
     max-width: 18.75rem;
+    text-align: center;
   }
 
   .login-box {
@@ -741,13 +439,13 @@ title {
 
   .read main, .game main, .see main {
     padding: 1rem;
-    margin-top: 3.75rem;
+    margin-top: 2rem;
     margin-bottom: 5rem;
   }
 
   .read main p, .game main p, .see main p {
-    margin-top: 3.75rem;
-    margin-bottom: 1.875rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     font-size: 1rem;
   }
 
@@ -758,9 +456,9 @@ title {
   .btn-pink,
   .confirmed-msg a button,
   .card button {
-    width: 100%;
-    font-size: 1rem;
-    padding: 0.625rem;
+    width: fit-content;
+    font-size: 0.8rem;
+    padding-left: 0;
   }
 
   .login-box input {
@@ -772,6 +470,62 @@ title {
     width: 7.5rem;
     height: 7.5rem;
   }
-}
+  .game-play main {
+  background-color: #D6435B;
+  padding: 3rem 1rem;
+  text-align: center;
+  height: 790px;
+  }
+
+  .game-play main p {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+    font-family: 'Inknut Antiqua', serif;
+  }
+
+  .button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .button-container a {
+    text-decoration: none;
+    font-family: 'Inknut Antiqua', serif;
+    font-weight: bold;
+  }
+
+  .button-container button {
+    border: none;
+    border-radius: 999px;
+    background-color: white;
+    color: #D6435B;
+    white-space: nowrap;
+  }
+
+  /* Ukuran tombol */
+  .gede {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    margin-left: 80px;
+  }
+  .sedang {
+    font-size: 0.8rem;
+    padding: 0.8rem 2rem;
+    margin: 1rem auto;
+    display: block;
+  }
+
+  .kecil {
+    font-size: 0.4rem;
+    padding: 0.3rem 1rem;
+    margin-top: 200px;
+    margin-right: 25px;
+    margin-left: 200px;
+  }
 
 }
