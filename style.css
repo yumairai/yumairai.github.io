@@ -550,6 +550,7 @@ button {
     padding: 0.8rem 2rem;
     margin: 1rem auto;
     display: block;
+    width: fit-content;
   }
 
   .kecil {
