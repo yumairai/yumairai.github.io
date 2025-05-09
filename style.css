@@ -216,6 +216,30 @@ title{
   margin-top: 40px; /* jarak dari elemen atasnya */
   padding-left: 20px; /* biar ga nempel ke kiri */
 }
+
+.see main{
+  padding: 2rem;
+  text-align: center;
+  padding-bottom: 25%;
+}
+
+.see main p{
+  font-size: large;
+  padding-bottom: 0%;
+  margin-bottom: 45px;
+  margin-top: 100px;
+  font-weight: bold;
+}
+
+.see main img{
+  height: 120px;
+}
+
+.see main .note{
+  font-size: smaller;
+  font-weight: lighter;
+  margin-top: 20px;
+}
 .card {
   background-color: #D6435B;
   color: white;
@@ -281,4 +305,96 @@ title{
   padding-left: 10px;
   padding-right: 10px;
   min-width: 120px;
+}
+
+@media (max-width: 768px) {
+  .header, .nav {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    padding: 1rem;
+    height: auto;
+  }
+
+  .header nav a {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .footer {
+    grid-template-columns: repeat(2, 1fr); /* dari 4 jadi 2 kolom */
+    font-size: 0.8rem;
+    height: auto;
+  }
+
+  .cards,
+  .menus,
+  .menu-pic {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .read-txt main {
+    margin: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .card {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .login-box {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .big-pic {
+    padding: 2rem;
+  }
+
+  .read main,
+  .game main,
+  .see main {
+    padding: 1rem;
+    margin-top: 60px;
+    margin-bottom: 80px;
+  }
+
+  .read main p,
+  .game main p,
+  .see main p {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: medium;
+  }
+
+  .see main img {
+    height: 80px;
+  }
+
+  .btn-pink,
+  .confirmed-msg a button,
+  .card button {
+    width: 100%;
+    min-width: unset;
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .login-box input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .circle {
+    width: 120px;
+    height: 120px;
+  }
 }
