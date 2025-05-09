@@ -63,12 +63,34 @@ button {
   text-align: center;
   padding: 1.5rem;
   border-radius: 1.5rem;
-  max-width: 18.75rem;
+  width: 25rem;
+  height: 33rem;
   margin: 0 auto 6.25rem;
 }
 
+.input-group {
+  text-align: left;
+  margin-bottom: 1rem;
+}
+
+.login-box label {
+  display: block;
+  margin-bottom: 0.5rem;
+  margin-left: 3rem;
+  font-size: 0.7rem;
+  font-family: 'Inknut Antiqua', serif;
+  color: #845555;
+  text-align: left; /* pastikan override */
+}
+
 .login-box input {
-  width: 100%;
+  display: block;
+  margin: 0 auto; /* center horizontal */
+}
+
+
+.login-box input {
+  width: 75%;
   margin-bottom: 1.5rem;
   border: none;
   border-radius: 1.5rem;
@@ -76,7 +98,7 @@ button {
   text-align: center;
   background-color: #D6435B;
   color: #fff;
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding: 0.625rem;
 }
 
@@ -91,7 +113,7 @@ button {
   background-color: #D6435B;
   color: white;
   border: none;
-  border-radius: 1rem;
+  border-radius: 999px;
   cursor: pointer;
   font-weight: bold;
 }
@@ -464,6 +486,11 @@ button {
   .login-box input {
     font-size: 1rem;
     padding: 0.625rem;
+    display: block;
+    font-size: 0.6rem;
+  }
+  .login-box {
+    text-align: center;
   }
 
   .circle {

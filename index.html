@@ -16,9 +16,21 @@
 
     <div class="login-box">
       <h2>Is it really you?</h2>
-      <input type="text" id="your-name" placeholder="full name pls, also in capslock" />
-      <input type="text" id="my-name" placeholder="full name pls, also in capslock" />
-      <input type="text" id="date" placeholder="when did we start dating??" />
+      <div class="input-group">
+        <label for="yourname">your name</label>
+        <input type="text" id="your-name" placeholder="full name pls, also in capslock" />
+        
+      </div>
+      <div class="input-group">
+        <label for="yourname">my name</label>
+        <input type="text" id="my-name" placeholder="full name pls, also in capslock" />
+        
+      </div>
+      <div class="input-group">
+        <label for="yourname">when did we start dating??</label>
+        <input type="text" id="date" placeholder="date/month/year" />
+        
+      </div>
       <button onclick="checkAnswer()">YU CEK</button>
       <p id="error-msg" style="color:#D6435B; font-size: 0.9rem;"></p>
     </div>
