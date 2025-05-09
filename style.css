@@ -283,11 +283,14 @@ button {
 
 }
 
-.card .pic-box {
-  background-color: white;
-  color: #845555;
-  padding: 0;
-  margin-bottom: 0;
+.card p{
+  margin-top: 0;
+}
+
+.card .pic-box img{
+  background-color: #D6435B;
+  height: 180px;
+  padding-bottom: 0;
 }
 
 .card button {
@@ -360,12 +363,12 @@ button {
 }
 
 /* Big Picture Section */
-.big-pic {
-  background-color: #D6435B;
-  color: white;
-  padding: 4rem;
-  margin-top: 2rem;
-  border-radius: 0.5rem;
+.big-pic img{
+  background-color: white;
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 50px;
 }
 
 /* Footer */
@@ -455,8 +458,10 @@ button {
     max-width: 20rem;
   }
 
-  .big-pic {
-    padding: 2rem;
+  .big-pic img{
+    height: 200px;
+    margin-left: -100px;
+
   }
 
   .read main, .game main, .see main {
