@@ -171,11 +171,12 @@ title{
   margin: 2rem 0;
 }
 
-.menu {
-  background-color: white;
-  padding: 1rem;
-  border-radius: 25px;
-  width: 200px;
+.menu-pic {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-bottom: 30px;
 }
 
 .card {
