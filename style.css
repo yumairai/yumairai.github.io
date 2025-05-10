@@ -404,6 +404,8 @@ button {
   border-radius: 1.5rem;
   padding: 0.5rem 0.625rem;
   min-width: 7.5rem;
+  cursor: pointer;
+
 }
 
 /* Responsive Design */
