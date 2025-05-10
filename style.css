@@ -186,7 +186,9 @@ button {
   border: none;
   border-radius: 999px;
   color: #D6435B;
-  min-width: 120px
+  min-width: 120px;
+  cursor: pointer;
+
  }
 
 .game-play main a{
@@ -242,16 +244,21 @@ button {
   text-align: center;
   white-space: normal;
   line-height: 45px;
+  cursor: pointer;
+
 }
 
 .button-container .friki{
   font-size: 0.9rem;
   padding: 0.5rem 1.2rem;
+  
 }
 
 .read-txt main button{
   margin-bottom: 4rem;
   width: fit-content;
+  cursor: pointer;
+
 }
 
 .see main img {
