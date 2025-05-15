@@ -261,7 +261,7 @@ button {
 
 }
 
-.see main img {
+.see main a img {
   height: 7.5rem;
 }
 
@@ -494,7 +494,7 @@ button {
     font-size: 1rem;
   }
 
-  .see main img {
+  .see main a img {
     height: 5rem;
   }
 
